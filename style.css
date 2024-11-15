@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./assest/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+h1,h3{
+    font-family: "Sen",serif;
+}
+p{
+    font-family: "Inter",sans-serif;
+}
+
+header {
+    background: #4C4C4C;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.btn-sub{
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.container{
+    width: 65%;
+    height: 100vh;
+}
+.container-heading{
+    padding: 6rem 0 0 2.6rem;
+    color: white;
+}
+.name{
+    color:  yellow;
+}
+.btn-heading{
+    height: 40px;
+    width: 150px;
+    color: black;
+    /* font-weight: 600; */
+    background-color: yellow;
+}
+#section{
+   padding-left: 1.5rem;
+   display: flex;
+   margin-bottom: 2rem;
+  
+}
+.Span-john{
+    color: purple;
+}
+.section1-img{
+    max-width: 100%;
+}
+.h1-section{
+    padding-left: 3rem;
+  
+   
+}
+.section1{
+  width: 50%;
+    padding-left: 3rem;
+    border: 1px solid lightgray;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+.forsec4{ 
+    height: 140px;
+    width: 500px;
+    padding-left: 3rem;
+}
+.h3-sec3{
+    padding-left: 1rem;
+}
+.mid-section{
+    display: flex;
+    justify-content: flex-end;
+}
+.mid-section1{
+   padding-left: 18rem;
+}
+.mid-section3{
+    background-color: #d6d6da;
+}
+.about-Mission{
+    width: 50%;
+    padding: 2.5rem 3rem;
+}
+.mid-section3{
+    display: flex;
+}
+.Categary{
+    padding-top: 2rem;
+}
+.cat-h1{
+    text-align: center;
+}
+.cat-sec{
+    display: flex;
+   padding-top: 1rem;
+}
+.cat-sec2{
+    background-color: yellow;
+}
+.border{
+    border: 1px solid lightgray ;
+    margin: 1rem;
+}
+.cat-img{
+    display: flex;
+}
+.cat-img-text{
+    background-color: white;
+    padding-top: 6rem;
+}
+.list-of-author{
+    display: flex;
+}
+.author-box1{
+    padding-left: 2rem;
+    padding-top: 3rem;
+    height: 250px;
+    width: 300px;
+    background-color: silver;
+}
+.author-h1{
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.box1{
+    margin-left: 4rem;
+}
+
+.box2{
+    margin-left: 2rem;
+    background-color: #fbf6ea;
+}
+.box3{
+    margin-left: 2rem;
+}
+.box4{
+    margin-left: 2rem;
+}
+.author-img{
+    padding: 1rem 1rem 1rem 2rem;
+}
+.logo-box{
+    padding: 3rem 0 1rem 5rem;
+}
+.logo-box1{
+   margin-left: 6rem; 
+}
+
+/* footer */
+footer {
+    background: #232536;
+    color: #fff;
+    padding: 15px 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+footer .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* SCREEN2 */
+
+.screen-sec{
+    background-color: #f4f0f8;
+}
+.screen-box1{
+    height: 50vh;
+    width: 50%;
+    padding: 5rem 0 0 5rem;
+}
+.posts-h1{
+    margin: 4rem;
+}
+.name1{
+    color: purple;
+}
+.screen-sec1{
+    display: flex;
+}
+.screen-box2{
+    padding: 8rem 5rem 7rem 5rem;
+}
+.posts1{
+    display: flex;
+}
+.post-box1-all{
+    padding-left: 4rem;
+}
+.post-box1{
+    height: 50vh;
+    width: 50%;
+}
+
+
+/* Screen-3 */
+
+.screen-start{
+    display: flex;
+    padding: 8rem 0 0 10rem;
+}
+.screen-sec-h1{
+    padding: 2rem 0 0 10rem;
+}
+.screen3-img{
+    padding: 5rem;
+}
+.screen3-text{
+    padding: 0 18rem 0 18rem;
+}
+.all{
+    margin-top: 1rem;
+}
+.screen-box1 all{
+    height: 30vh;
+    width: 20%;
+}
+.screen3-box{
+    display: flex;
+}
+.all3{
+    padding-bottom: 8rem;
+}
+
+/* hover effect */
+
